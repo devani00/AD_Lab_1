@@ -1,0 +1,108 @@
+Here are 10 common Git commands:
+
+1. **`git init`**  
+   Initializes a new Git repository in the current directory.
+
+2. **`git clone <repository_url>`**  
+   Creates a copy of an existing repository by downloading it from a remote URL.
+
+3. **`git add <file_or_directory>`**  
+   Stages changes (new files, modifications, or deletions) to be committed.
+
+4. **`git commit -m "<commit_message>"`**  
+   Commits staged changes to the repository with a descriptive message.
+
+5. **`git status`**  
+   Displays the state of the working directory and staging area, showing any changes.
+
+6. **`git log`**  
+   Shows the commit history of the current branch.
+
+7. **`git branch`**  
+   Lists all branches in the repository and indicates the current branch.
+
+8. **`git checkout <branch_name>`**  
+   Switches to a different branch in the repository.
+
+9. **`git pull`**  
+   Fetches and integrates changes from a remote repository into the current branch.
+
+10. **`git push`**  
+    Uploads local commits from the current branch to a remote repository.
+
+Here are 20 more Git commands:
+
+11. **`git merge <branch_name>`**  
+    Combines the specified branch into the current branch.
+
+12. **`git fetch`**  
+    Downloads changes from a remote repository but does not apply them to the current branch.
+
+13. **`git remote -v`**  
+    Displays the URLs of the remote repositories associated with the local repository.
+
+14. **`git diff`**  
+    Shows the differences between the working directory and the staging area or between commits.
+
+15. **`git stash`**  
+    Temporarily saves changes in the working directory that are not ready to be committed.
+
+16. **`git stash apply`**  
+    Applies the most recent stash to the working directory without removing it from the stash list.
+
+17. **`git stash pop`**  
+    Applies the most recent stash to the working directory and removes it from the stash list.
+
+18. **`git rebase <branch_name>`**  
+    Reapplies commits from the current branch on top of another branch.
+
+19. **`git reset --hard <commit_hash>`**  
+    Resets the working directory, staging area, and current branch to a specified commit, discarding all changes.
+
+20. **`git reset --soft <commit_hash>`**  
+    Resets the current branch to a specified commit, but keeps changes in the staging area.
+
+21. **`git tag <tag_name>`**  
+    Creates a tag for a specific commit, often used to mark releases.
+
+22. **`git log --oneline`**  
+    Displays the commit history in a compact, one-line format.
+
+23. **`git log --graph --all --decorate`**  
+    Shows a graphical representation of the commit history for all branches.
+
+24. **`git rm <file>`**  
+    Removes a file from the working directory and stages the removal for commit.
+
+25. **`git mv <old_filename> <new_filename>`**  
+    Renames a file and stages the change for commit.
+
+26. **`git show <commit_hash>`**  
+    Displays the changes introduced by a specific commit.
+
+27. **`git cherry-pick <commit_hash>`**  
+    Applies a commit from another branch or location to the current branch.
+
+28. **`git bisect start`**  
+    Starts a binary search to find the commit that introduced a bug.
+
+29. **`git bisect good <commit_hash>`**  
+    Marks a known good commit during a binary search.
+
+30. **`git bisect bad <commit_hash>`**  
+    Marks a known bad commit during a binary search.
+
+31. **`git reflog`**  
+    Shows a log of all actions performed on the local repository, including resets and rebases.
+
+32. **`git submodule add <repository_url>`**  
+    Adds another repository as a submodule within the current repository.
+
+33. **`git submodule update --init --recursive`**  
+    Initializes, fetches, and checks out the correct commits for all submodules.
+
+34. **`git clean -f`**  
+    Removes untracked files from the working directory.
+
+35. **`git blame <file>`**  
+    Shows who made the last modification to each line of a file, along with the commit hash.
